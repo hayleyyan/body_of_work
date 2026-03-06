@@ -27,7 +27,7 @@ Welcome to my body of work! This is a living collection of the projects, experim
 ## Contact
 
 - 🐙 GitHub: [@hayleyyan](https://github.com/hayleyyan)
-- 📧 Email: your-email@example.com
+- 📧 Email: hayleyyan21@gmail.com
 
 ---
 
