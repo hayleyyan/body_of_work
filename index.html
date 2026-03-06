@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hayley Yan | Body of Work</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">HY</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hero-greeting">Hi, I'm</p>
+      <h1 class="hero-name">Hayley Yan</h1>
+      <p class="hero-tagline">A showcase of my work, projects, and ideas.</p>
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-label">About</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-title">A little about me</h2>
+          <p>
+            Welcome to my body of work! This is a living collection of the projects,
+            experiments, and ideas I've been building. I'm passionate about creating
+            meaningful things and continuously learning along the way.
+          </p>
+          <p>
+            Feel free to explore, and don't hesitate to reach out if you'd like to
+            collaborate or just chat.
+          </p>
+          <a href="https://github.com/hayleyyan" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+            <i class="fab fa-github"></i> View GitHub Profile
+          </a>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-number" data-target="0">0</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number" data-target="0">0</span>
+            <span class="stat-label">Contributions</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number" data-target="0">0</span>
+            <span class="stat-label">Repos</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work -->
+  <section class="section work" id="work">
+    <div class="container">
+      <div class="section-label">Work</div>
+      <h2 class="section-title">Projects & Work</h2>
+      <p class="section-subtitle">More projects coming soon — stay tuned!</p>
+
+      <div class="projects-grid">
+        <!-- Placeholder project cards -->
+        <div class="project-card placeholder">
+          <div class="project-card-inner">
+            <div class="project-icon"><i class="fas fa-code"></i></div>
+            <h3>Project Title</h3>
+            <p>A short description of what this project does and what technologies were used.</p>
+            <div class="project-tags">
+              <span class="tag">Tag 1</span>
+              <span class="tag">Tag 2</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+              <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card placeholder">
+          <div class="project-card-inner">
+            <div class="project-icon"><i class="fas fa-palette"></i></div>
+            <h3>Project Title</h3>
+            <p>A short description of what this project does and what technologies were used.</p>
+            <div class="project-tags">
+              <span class="tag">Tag 1</span>
+              <span class="tag">Tag 2</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+              <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card placeholder">
+          <div class="project-card-inner">
+            <div class="project-icon"><i class="fas fa-chart-line"></i></div>
+            <h3>Project Title</h3>
+            <p>A short description of what this project does and what technologies were used.</p>
+            <div class="project-tags">
+              <span class="tag">Tag 1</span>
+              <span class="tag">Tag 2</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+              <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-label">Contact</div>
+      <h2 class="section-title">Let's connect</h2>
+      <p class="section-subtitle">Have a project in mind or just want to say hi? I'd love to hear from you.</p>
+      <div class="contact-links">
+        <a href="https://github.com/hayleyyan" target="_blank" rel="noopener" class="contact-card">
+          <i class="fab fa-github"></i>
+          <span>GitHub</span>
+          <small>@hayleyyan</small>
+        </a>
+        <a href="mailto:your-email@example.com" class="contact-card">
+          <i class="fas fa-envelope"></i>
+          <span>Email</span>
+          <small>your-email@example.com</small>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Hayley Yan · Built with ♥ and hosted on <a href="https://pages.github.com" target="_blank" rel="noopener">GitHub Pages</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
